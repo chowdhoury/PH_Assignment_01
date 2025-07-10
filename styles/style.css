@@ -37,11 +37,12 @@ body {
 .primary-btn {
   font-size: 16px;
   font-weight: 800;
-  padding: 12px 36px;
+  padding: 11.5px 35.5px;
   background-color: var(--primary-color);
   border: none;
   border-radius: 10px;
   color: #ffffff;
+  border: 1px solid var(--primary-color);
   transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
 
 }
