@@ -60,6 +60,9 @@ section{
     font-weight: 800;
     color: var(--secondary-color);
 }
+.max-widt{
+    max-width: 1140px;
+}
 
 
 
