@@ -19,6 +19,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #F5F8FF;
+}
 
 
 
@@ -47,6 +50,16 @@
     border-radius: 10px;
     color: #FFFFFF;
 }
+section{
+    margin: 0 auto;
+    margin-top: 116px;
+    max-width: 1140px;
+}
+.section-title{
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
 
 
 
@@ -71,15 +84,49 @@ nav{
     font-size: 34px;
     font-weight: 900;
 }
+
 .banner{
     margin-top: 158px;
 }
+
 .banner-title{
     text-align: center;
     font-size: 65px;
     font-weight: 800;
     color: var(--secondary-color);
 }
+
 .banner button{
     margin-top: 37px;
+}
+
+
+
+
+/* Action Section  */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 328px;
+}
+
+.action img{
+    max-width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    color: var(--secondary-color);
+}
+
+.action h2{
+    margin-bottom: 23px;
+}
+
+.action p{
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+}
+.action button{
+    margin-top: 23px;
 }
