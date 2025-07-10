@@ -133,3 +133,40 @@ nav{
 .action button{
     margin-top: 23px;
 }
+
+
+
+
+/* Productive User Section */
+.productive-user{
+    background-color: rgba(78, 71, 255,0.1);
+    border-radius: 24px;
+    text-align: center;
+    height: 306px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productive-user > div{
+    margin: 50px 80px;
+}
+.productive-user-analysis{
+    display: flex;
+    justify-content: space-between;
+}
+.productive-user h3{
+    font-size: 38px;
+    font-weight: 800;
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+}
+.productive-user h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+.productive-user p{
+    font-size: 20px;
+    color: black;
+    opacity: 50%;
+}
