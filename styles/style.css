@@ -160,6 +160,70 @@ nav {
   opacity: 50%;
 }
 
+
+/* User Feedback Section  */
+.user-feedback{
+    margin-top: 137px !important;
+    height: 342px;
+}
+.user-feedback h2{
+    text-align: center;
+}
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-radius: 24px;
+}
+.user-feedback h3{
+    font-size: 32px;
+    font-weight: 500px;
+    margin-bottom: 8px;
+    color: #252432;
+}
+.item{
+    height: 250px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.item > div{
+    margin: 20px;
+}
+.image-container img{
+    height: 20px;
+    width: 20px;
+}
+.image-container{
+    margin-bottom: 24px;
+}
+.author-details{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.author-details img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.author-details h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+}
+.author-details p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(117, 117, 117, 0.5);
+}
+.sub-title{
+    font-size: 19.1px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
 /* Get In Touch Section */
 .get-in-touch {
     margin-top: 92px !important;
