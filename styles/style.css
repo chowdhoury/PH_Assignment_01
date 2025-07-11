@@ -44,7 +44,7 @@ body {
   color: #ffffff;
   border: 1px solid var(--primary-color);
   transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
-
+  cursor: pointer;
 }
 .primary-btn:hover{
     color: var(--primary-color);
